@@ -24,8 +24,23 @@ To write a Python function that accepts a number **N** and creates a list contai
 ### PROGRAM
 
 ```
+
+def createlist(n):
+
+    l=[]
+
+    for i in range(12,n):
+
+        if i%2!=0:
+
+            l.append(i)
+
+    print(l)        
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/bf63c3b2-f01c-4a52-97ca-9740c57a2871)
+
 
 ### RESULT
+Thus the program is executed successfully
