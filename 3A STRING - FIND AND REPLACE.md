@@ -22,10 +22,15 @@ Write a python function that accepts a string and converts it into upper case,lo
 
 ### PROGRAM
 def modify(n):
+
     print(n)
+    
     print(n.upper())
+    
     print(n.lower())
+    
     print(n.title())
+    
 ```
 
 ### OUTPUT
