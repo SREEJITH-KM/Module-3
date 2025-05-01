@@ -4,7 +4,7 @@
 ---
 
 ### AIM  
-To write a Python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user.
+Write a python function that accepts a string and converts it into upper case,lower case and title case.
 
 ---
 
@@ -21,10 +21,16 @@ To write a Python function to accept a string, identify a word to be replaced, a
 ---
 
 ### PROGRAM
-
-```
+def modify(n):
+    print(n)
+    print(n.upper())
+    print(n.lower())
+    print(n.title())
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/54a1fc3c-7ebb-430e-bbea-a78d92c2f927)
+
 
 ### RESULT
+Thus the program is executed successfully
