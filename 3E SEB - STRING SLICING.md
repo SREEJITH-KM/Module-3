@@ -4,27 +4,43 @@
 ---
 
 ### AIM  
-To write a Python function that accepts a string and forms a new string by reversing the characters from the **4th position to the 10th position** with **alternate characters**, and then prints the new string.
-
+Write a python program to create the tuple by the multiples of 9 up to N and the print length of the tuple. Get the N value from the user.
 ---
 
 ### ALGORITHM
+Start
 
-1. Begin the program.  
-2. Accept a string as input.  
-3. Take a slice of the input string from index **2** to **10** (Python uses 0-based indexing, so index 2 refers to the 3rd character, i.e., the 4th character in natural terms).  
-4. Reverse the sliced substring.  
-5. Extract every second character from the reversed substring using slicing (`[::2]`).  
-6. Print the final processed string.  
-7. Terminate the program.
+Prompt the user to enter a positive integer N
 
+Initialize an empty list to store the multiples of 9
+
+Use a loop (e.g., for i in range(9, N+1, 9)) to generate multiples of 9 up to N
+
+Append each multiple to the list
+
+Convert the list to a tuple
+
+Print the tuple and its length
+
+End
 ---
 
 ### PROGRAM
 
 ```
+n=int(input())
+
+L=list(range(9,n,9))
+
+print(tuple(L))
+
+print("Length of the tuple is",len(L))
+
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/5465d20d-bf9b-4400-a14b-c174fdfe38b1)
+
 
 ### RESULT
+Thus the program is executed successfully
