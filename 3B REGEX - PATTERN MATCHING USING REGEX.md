@@ -4,7 +4,7 @@
 ---
 
 ### AIM  
-To write a Python program that matches a string containing an `'a'` followed by **two to three `'b'` characters** using regular expressions.
+Write a Python program that matches a string that has an a followed by two to three 'b'.
 
 ---
 
@@ -22,8 +22,20 @@ To write a Python program that matches a string containing an `'a'` followed by 
 
 ### PROGRAM
 
+import re
+def text_match(text):
+    patterns = 'ab{2,3}?'
+    if re.search(patterns, text):
+        return 'Found a match!'
+    else:
+        return 'Not matched!'
+x=input()
+print(text_match(x))
 ```
 ```
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/075792cb-0542-43e8-9276-72aad9c7ba08)
+
 
 ### RESULT
+Thus the program is executed successfully
